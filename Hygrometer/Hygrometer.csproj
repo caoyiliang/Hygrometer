@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>CSoft.Protocol.$(AssemblyName)</PackageId>
+		<Authors>CSoft</Authors>
+		<Company>CSoft</Company>
+		<Description>泽天湿度仪通讯协议</Description>
+		<PackageIcon>logo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/caoyiliang/DustAnalyzerSquare</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/caoyiliang/DustAnalyzerSquare</PackageProjectUrl>
+		<Version>10.0.0</Version>
+		<PackageReleaseNotes>依赖更新</PackageReleaseNotes>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<None Include="..\logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CSoft.Protocol.Modbus" Version="10.0.3" />
+	</ItemGroup>
+
+</Project>
