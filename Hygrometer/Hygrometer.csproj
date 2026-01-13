@@ -12,7 +12,7 @@
 		<PackageIcon>logo.png</PackageIcon>
 		<RepositoryUrl>https://github.com/caoyiliang/DustAnalyzerSquare</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/caoyiliang/DustAnalyzerSquare</PackageProjectUrl>
-		<Version>10.0.1</Version>
+		<Version>10.0.2</Version>
 		<PackageReleaseNotes>依赖更新</PackageReleaseNotes>
 	</PropertyGroup>
 	
@@ -24,7 +24,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CSoft.Protocol.Modbus" Version="10.0.4" />
+		<PackageReference Include="CSoft.Protocol.Modbus" Version="10.0.5" />
 	</ItemGroup>
 
 </Project>
